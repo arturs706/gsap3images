@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --font-ivy-mode: 'IvyMode', sans-serif;
+  --font-ivy-mode-bold-italic: 'IvyMode-BoldItalic', sans-serif;
+}
+
+body {
+  font-family: var(--font-ivy-mode), sans-serif;
+}
+
